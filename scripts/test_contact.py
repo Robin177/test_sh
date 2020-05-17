@@ -4,7 +4,7 @@ import allure
 
 
 class TestContact:
-    @allure.severity("BLOCKER")
+    @allure.severity("bloker")
     @allure.step(title="登录的测试脚本")
     def test_login(self):
         allure.attach("输入密码", "输入密码的描述")
@@ -14,13 +14,13 @@ class TestContact:
 
         assert 1
 
-    @allure.severity("CRITICAL")
+    @allure.severity("critical")
     @allure.step(title="用户名的测试脚本")
     def test_username(self):
 
         assert 1
 
-    @allure.severity("TRIVIAL")
+    @allure.severity("trivial")
     @allure.step(title="密码的测试脚本")
     def test_passwo1d(self):
 
