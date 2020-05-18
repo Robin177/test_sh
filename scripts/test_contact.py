@@ -18,10 +18,10 @@ class TestContact:
     @allure.step(title="用户名的测试脚本")
     def test_username(self):
 
-        assert 1
+        assert 0
 
     @allure.severity("trivial")
     @allure.step(title="密码的测试脚本")
     def test_passwo1d(self):
 
-        assert 1
+        assert 0
