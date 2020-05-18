@@ -7,6 +7,7 @@ class TestContact:
     @allure.severity("bloker")
     @allure.step(title="登录的测试脚本")
     def test_login(self):
+        web个
         allure.attach("输入密码", "输入密码的描述")
         print("输入密码")
         allure.attach("登录", "登录的描述")
