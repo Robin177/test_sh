@@ -12,16 +12,16 @@ class TestContact:
         allure.attach("登录", "登录的描述")
         print("点击登录")
 
-        assert 0
+        assert 1
 
     @allure.severity("critical")
     @allure.step(title="用户名的测试脚本")
     def test_username(self):
 
-        assert 0
+        assert 1
 
     @allure.severity("trivial")
     @allure.step(title="密码的测试脚本")
     def test_passwo1d(self):
 
-        assert 0
+        assert 1
