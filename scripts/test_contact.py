@@ -1,3 +1,4 @@
+到此一游
 from appium import webdriver
 import pytest
 import allure
@@ -27,6 +28,4 @@ class TestContact:
         assert 1
         
         
-    到此一游
-
      
