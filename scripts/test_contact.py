@@ -1,4 +1,3 @@
-到此一游
 from appium import webdriver
 import pytest
 import allure
